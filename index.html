@@ -5,13 +5,13 @@
     <meta charset="UTF-8"> <!-- UTF-8 kodlash formati -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobil moslashuv -->
     <title>Planktos</title> <!-- Sahifa nomi -->
-    <link rel="stylesheet" href="https://imomovmir.github.io/jba/static/css/style.css"> <!-- Statik CSS faylni ulash -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> <!-- Statik CSS faylni ulash -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- FontAwesome ikonkalari -->
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar"> <!-- Navigatsiya paneli -->
-        <img src="https://imomovmir.github.io/jba/static/img/l.jpg" class="logo" alt="Freedom Doge Logo"> <!-- Logotip -->
+        <img src="{% static 'img/l.jpg' %}" class="logo" alt="Freedom Doge Logo"> <!-- Logotip -->
         <div class="nav-links"> <!-- Havolalar qismi -->
             <a href="#about">About</a>
             <a href="#features">Features</a>
