@@ -74,9 +74,9 @@
 
 /*O‘zgaruvchilar---Natija: O‘zgaruvchilar (variables) yaratildi va ularni boshqa joyda ishlatish mumkin.*/
 :root {
-    --gold: #ffd90000;
+    --gold: #FFD700;
     --purple: #4B0082;
-    --bg-overlay: linear-gradient(45deg, rgba(76, 0, 130, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    --bg-overlay: linear-gradient(45deg, rgba(75,0,130,0.9) 0%, rgba(0,0,0,0.7) 100%);
 }
 
 /*Umumiy uslub---: Sahifa orqa foni surishmaydi va shrift Comic Neue bo‘ladi.*/
@@ -84,8 +84,8 @@ body {
     margin: 0;
     font-family: 'Comic Neue', cursive;
     color: white;
-    background: url("https://imomovmir.github.io/jba/static/img/p.jpg");
-    background-size: fixed;
+    background: var(--bg-overlay), url("https://imomovmir.github.io/jba/static/img/p.jpg");
+    background-size: cover;
     background-attachment: fixed;
     min-height: 200vh;
 }
@@ -171,7 +171,7 @@ h1 {
     font-size: 1.2rem; /* Matn kattaligi */
     font-weight: 500; /* Qalinligi */
     color: #ffffff; /* Oq rangdagi matn */
-    background: linear-gradient(135deg, #ff8c0000, #ff416d00); /* Gradient fon */
+    background: linear-gradient(135deg, #ff8c005b, #ff416d0c); /* Gradient fon */
     padding: 50px; /* Ichki bo‘shliq */
     border-radius: 70px; /* Burchaklarni yumaloqlash */
     text-align: center; /* Matnni tekislash */
@@ -179,6 +179,7 @@ h1 {
     max-width: 1000px; /* Maksimal kenglik (katakcha ichiga tushishi uchun) */
     word-wrap: break-word; /* So‘z ajratish */
     line-height: 2.0; /* Qatorlar orasidagi masofa */
+    border: 9px solid rgba(157, 127, 38, 0.3); /* Yarim shaffof chegara */
     margin: 2px auto; /* Markazga joylash */
 }
 
