@@ -84,7 +84,7 @@ body {
     margin: 0;
     font-family: 'Comic Neue', cursive;
     color: white;
-    background: var(--bg-overlay), url("../img/p.jpg");
+    background: var(--bg-overlay), url("https://imomovmir.github.io/jba/static/img/p.jpg");
     background-size: cover;
     background-attachment: fixed;
     min-height: 200vh;
