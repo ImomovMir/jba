@@ -84,7 +84,7 @@ body {
     margin: 0;
     font-family: 'Comic Neue', cursive;
     color: white;
-    background: var(--bg-overlay), url("https://planktos.online/staticfiles/img/p.jpg");
+    background: var(--bg-overlay), url("https://raycock.xyz/staticfiles/img/p.jpg");
     background-size: cover;
     background-attachment: fixed;
     min-height: 200vh;
